@@ -1,17 +1,30 @@
-# 2020_Grant_etal_NGEO
+# 2020_Grant_Thiery_C3S511_Task7.4
 
-Scripts used in the analyis of Grant et al 2020.
+Scripts used in the lake temperature - precipitation coupling analysis for the C3S_511 thematic assessment task 7.4.
 
 ## To install
-Bash scripts require CDO and NCO binaries.
-
 Python scripts should be run on python3.
+Python environment available here as "environment.yml"
 
 ## For users
-This repository includes the processing and plotting scripts used in Grant et al, 2020. ISIMIP 2b global lakes outputs are largely post-processed in the bash scripts. Additional statistical analyses and plotting are done with python.
+This repository includes the processing and plotting scripts.
+
+"main.py" controls output by options commented with "<< SELECT >>"
+* Processing options for:
+  * ERA5 vs ERA5-Land dataset choice (flag_ds)
+  * Pearson vs Spearman correlation (flag_corrtst)
+  * Process and plot vs plot only (flag_proc)
+  * Variables to assess (flag_coup)
+* Plotting options:
+  * Global vs regional (flag_subset)
+  * Wind vector overlay (flag_wind)
+  * Projection choice (flag_proj)
+  * General plotting options for figure size, panel spacing, colorbar, boundaries
+  
+"funcs.py" called by "main.py" for processing and plotting.
 
 ## Versions
-Version 0.1.0 - June 2020  
+Version 0.1.0 - August 2020  
 
 
 ## License
