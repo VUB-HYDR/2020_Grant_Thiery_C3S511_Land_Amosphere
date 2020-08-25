@@ -28,4 +28,4 @@ Version 0.1.0 - August 2020
 
 
 ## License
-This project is licensed under the MIT License. See also the [LICENSE](https://github.com/VUB-HYDR/2020_Grant_etal_NGEO/blob/master/LICENSE.md) file.
+This project is licensed under the MIT License. See also the [LICENSE](https://github.com/VUB-HYDR/2020_Grant_Thiery_C3S511_Task7.4/blob/master/LICENSE.md) file.
